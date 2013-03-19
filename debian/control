@@ -1,0 +1,16 @@
+Source: ruby-execjs
+Section: ruby
+Priority: optional
+Maintainer: Faidon Liambotis <faidon@wikimedia.org>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.3.0~)
+Standards-Version: 3.9.3
+Homepage: https://github.com/sstephenson/execjs
+XS-Ruby-Versions: all
+
+Package: ruby-execjs
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter, ruby-multi-json
+Recommends: nodejs
+Description: Run JavaScript code from Ruby
+ ExecJS lets you run JavaScript code from Ruby.

@@ -1,0 +1,5 @@
+ruby-execjs (1.4.0-1~wmf1) precise-wikimedia; urgency=low
+
+  * Initial release.
+
+ -- Faidon Liambotis <faidon@wikimedia.org>  Tue, 19 Mar 2013 02:31:59 +0200
